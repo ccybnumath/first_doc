@@ -1,4 +1,3 @@
-index
 .. toctree::
    :maxdepth: 2
 
