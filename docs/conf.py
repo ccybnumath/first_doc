@@ -19,9 +19,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Chencanyi\'s first doc'
-copyright = '2019, chencanyi'
-author = 'chencanyi'
+project = 'DBATC'
+copyright = '2019, Canyi Chen'
+author = 'Canyi Chen'
 
 # The short X.Y version
 version = ''
@@ -39,6 +39,8 @@ release = ''
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'sphinx.ext.autodoc',
+    'sphinx.ext.doctest',
     'sphinx.ext.todo',
     'sphinx.ext.mathjax',
     'sphinx.ext.ifconfig',
@@ -106,7 +108,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'Chencanyisfirstdocdoc'
+htmlhelp_basename = 'DBATCdoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -133,8 +135,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'Chencanyisfirstdoc.tex', 'Chencanyi\'s first doc Documentation',
-     'chencanyi', 'manual'),
+    (master_doc, 'DBATC.tex', 'DBATC Documentation',
+     'Canyi Chen', 'manual'),
 ]
 
 
@@ -143,7 +145,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'chencanyisfirstdoc', 'Chencanyi\'s first doc Documentation',
+    (master_doc, 'dbatc', 'DBATC Documentation',
      [author], 1)
 ]
 
@@ -154,8 +156,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'Chencanyisfirstdoc', 'Chencanyi\'s first doc Documentation',
-     author, 'Chencanyisfirstdoc', 'One line description of project.',
+    (master_doc, 'DBATC', 'DBATC Documentation',
+     author, 'DBATC', 'One line description of project.',
      'Miscellaneous'),
 ]
 
