@@ -56,6 +56,7 @@ Credits
 =======
 
 .. include:: ../CONTRIBUTORS.txt
+
 Indices and tables
 ==================
 
