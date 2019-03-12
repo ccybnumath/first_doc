@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'first_doc'
+project = 'Chencanyi\'s first doc'
 copyright = '2019, chencanyi'
 author = 'chencanyi'
 
@@ -106,7 +106,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'first_docdoc'
+htmlhelp_basename = 'Chencanyisfirstdocdoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -133,7 +133,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'first_doc.tex', 'first\\_doc Documentation',
+    (master_doc, 'Chencanyisfirstdoc.tex', 'Chencanyi\'s first doc Documentation',
      'chencanyi', 'manual'),
 ]
 
@@ -143,7 +143,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'first_doc', 'first_doc Documentation',
+    (master_doc, 'chencanyisfirstdoc', 'Chencanyi\'s first doc Documentation',
      [author], 1)
 ]
 
@@ -154,8 +154,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'first_doc', 'first_doc Documentation',
-     author, 'first_doc', 'One line description of project.',
+    (master_doc, 'Chencanyisfirstdoc', 'Chencanyi\'s first doc Documentation',
+     author, 'Chencanyisfirstdoc', 'One line description of project.',
      'Miscellaneous'),
 ]
 
