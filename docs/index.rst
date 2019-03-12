@@ -55,5 +55,5 @@ Contents
 Credits
 =======
 
-.. include:: ../CONTRIBUTORS.txt
+.. include:: ./con.txt
 
